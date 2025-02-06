@@ -36,9 +36,14 @@ body{
 
 img{
     border-radius: 50%;
-    width: 9vw;
+    width: 7vw;
     height: auto;
     margin-top: 1rem;
+}
+
+h1{
+    font-size: var(--fs-600);
+    font-weight: var(--fw-700);
 }
 
 .profile-info{
@@ -53,13 +58,14 @@ img{
 
 .byline{
     margin-top: 1rem;
+    font-weight: var(--fw-400);
 }
 
 .link-list{
     width: 100%;
     display: flex;
     flex-direction: column; 
-    gap: .25rem; 
+    gap: .5rem; 
     padding: 0;  
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -80,6 +86,7 @@ img{
     align-items: center;
     justify-content: center;
     font-size: var(--fs-400);
+    font-weight: var(--fw-600);
 }
 
 .fs-400{
